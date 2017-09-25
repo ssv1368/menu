@@ -9,7 +9,7 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:theme="@style/AppTheme.AppBarOverlay"
         android:elevation="0dp"
         >
@@ -20,35 +20,9 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="#02313B"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            >
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageButton
-                    android:id="@+id/menuLeft"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:src="@drawable/ic_menu_white_24dp"
-                    android:tint="@color/colorPrimary" />
-                <ImageButton
-                    android:id="@+id/menuRight"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:src="@drawable/ic_menu_white_24dp"
-                    android:tint="@color/colorPrimary" />
-            </RelativeLayout>
-        </android.support.v7.widget.Toolbar>
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-
-
 
     <include layout="@layout/content_main" />
 
