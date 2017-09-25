@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/home_vector"
+            android:title="صفحه اول" />
+        <item
+            android:id="@+id/gasideh_poem"
+
+            android:icon="@drawable/poem"
+            android:title="قصیده" />
+        <item
+            android:id="@+id/masnavi_poem"
+            android:icon="@drawable/poem"
+            android:title="مثنوی" />
+        <item
+            android:id="@+id/ghzal_poem"
+            android:icon="@drawable/poem"
+            android:title="غزل" />
+        <item
+            android:id="@+id/persion_selection"
+            android:icon="@drawable/selection1"
+            android:title="منتخب شعر فارسی"/>
+        <item
+            android:id="@+id/turkish_selection"
+            android:icon="@drawable/selection2"
+            android:title="منتخب شعر ترکی"/>
+
+    </group>
+
+    <item android:title="سایر">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about_vector"
+                android:title="درباره" />
+            <item
+                android:id="@+id/conection"
+                android:icon="@drawable/conection_vector"
+                android:title="ارتباط با ما" />
+        </menu>
+    </item>
+
+</menu>
